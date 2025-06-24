@@ -63,3 +63,7 @@ Genetic algorithms are great for problems where there are too many possibilities
     - Each solution (individual) is a shuffled list of location indices, representing a possible way to assign locations to vehicles.
     - Registered functions for creating individuals, populations, and genetic operators (crossover, mutation, selection).
 - This structure allows the algorithm to generate, evaluate, and evolve solutions for the VRP.
+
+### Running the Genetic Algorithm and Visualizing Results
+
+The genetic algorithm runs for 300 generations, starting with a big group of possible solutions. Over time, the solutions improve as the algorithm keeps mixing and tweaking them. The best solution found is shown on a plot, where each vehicle’s route is drawn in a different color. This makes it easy to see how the locations are divided up and how balanced the routes are.
