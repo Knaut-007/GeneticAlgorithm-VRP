@@ -30,3 +30,28 @@
 - Each location is represented by random (x, y) coordinates within a 100x100 grid.
 - The depot, where all vehicles start and end their routes, is fixed at the center point (50, 50).
 - This setup provides a simple, random test environment for the genetic algorithm to solve.
+
+Primary sources:  
+- https://en.wikipedia.org/wiki/Genetic_algorithm  
+- https://www.turing.com/kb/genetic-algorithm-in-python  
+- https://www.geeksforgeeks.org/genetic-algorithms/
+
+---
+
+### What is a Genetic Algorithm?
+
+A genetic algorithm is a way to solve tough problems by mimicking how nature works. It starts with a bunch of possible solutions (called a population) and tries to make them better over time.
+
+Each solution (sometimes called an individual or chromosome) is given a score by a fitness function, which tells how good that solution is. The best solutions are picked to be parents, and new solutions are made by combining parts of two parents (crossover) or making small random changes (mutation).
+
+This process goes on for many generations. Over time, the solutions usually get better, because the weaker ones get replaced by stronger ones. The algorithm stops when it finds a good enough answer or after a set number of generations.
+
+**How it works, step by step:**
+1. Start with a random group of solutions.
+2. Score each solution.
+3. Pick the better ones to be parents.
+4. Mix and tweak them to make new solutions.
+5. Replace the old group with the new one.
+6. Repeat until you’re happy with the answer.
+
+Genetic algorithms are great for problems where there are too many possibilities to check one by one, or when the problem is just too complicated for regular methods.
