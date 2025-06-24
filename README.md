@@ -49,5 +49,4 @@ A genetic algorithm is a way to solve hard problems by mimicking how nature work
 
 - [Wikipedia: Genetic Algorithm](https://en.wikipedia.org/wiki/Genetic_algorithm)
 - [DEAP Documentation](https://deap.readthedocs.io/en/master/)
-- [Turing: Genetic Algorithm in Python](https://www.turing.com/kb/genetic-algorithm-in-python)
 - [GeeksforGeeks: Genetic Algorithms](https://www.geeksforgeeks.org/genetic-algorithms/)
