@@ -18,3 +18,9 @@
 ## Next Steps
 
 - Install dependencies and set up the genetic algorithm code.
+
+### Installing Dependencies
+
+- The main Python packages used in this project are: matplotlib (for plotting), deap (for genetic algorithms), and numpy (for numerical operations).
+- These dependencies are listed in src/requirements.txt for easy project setup and reproducibility.
+
