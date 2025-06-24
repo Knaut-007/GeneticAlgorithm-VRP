@@ -55,3 +55,11 @@ This process goes on for many generations. Over time, the solutions usually get 
 6. Repeat until you’re happy with the answer.
 
 Genetic algorithms are great for problems where there are too many possibilities to check one by one, or when the problem is just too complicated for regular methods.
+
+### Genetic Algorithm Structure
+
+- Used the DEAP library to set up the main parts of the genetic algorithm:
+    - Defined a fitness function that tries to minimize both the total distance traveled and how balanced the routes are between vehicles.
+    - Each solution (individual) is a shuffled list of location indices, representing a possible way to assign locations to vehicles.
+    - Registered functions for creating individuals, populations, and genetic operators (crossover, mutation, selection).
+- This structure allows the algorithm to generate, evaluate, and evolve solutions for the VRP.
